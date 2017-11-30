@@ -1,5 +1,5 @@
 {
-  "name": "lighthouse-report",
+  "name": "lighthouse-report-dev",
   "version": "0.0.0",
   "description": "Crawls a website, gets Lighthouse data for each page, and exports an HTML report",
   "repository": "blaryjp/lighthouse-report",
