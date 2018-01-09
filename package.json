@@ -1,8 +1,8 @@
 {
   "name": "lighthouse-report-dev",
   "version": "0.0.0",
-  "description": "Crawls a website, gets Lighthouse data for each page, and exports an HTML report",
-  "repository": "blaryjp/lighthouse-report",
+  "description": "Fork of lighthouse-report",
+  "repository": "digitaliteter/lighthouse-report-dev",
   "main": "src/main.js",
   "bin": {
     "lighthouse-report": "src/cli.js"
@@ -16,17 +16,17 @@
     "spider"
   ],
   "authors": [{
-    "name": "blaryjp",
-    "url": "https://github.com/blaryjp"
+    "name": "digitaliteter",
+    "url": "https://github.com/digitaliteter"
   }, {
-    "name": "Johan Satgé",
-    "url": "http://johansatge.com"
+    "name": "pblomman",
+    "url": "www.digitaliteter.se"
   }],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/blaryjp/lighthouse-report/issues"
+    "url": "https://github.com/digitaliteter/lighthouse-report-dev/issues"
   },
-  "homepage": "https://github.com/blaryjp/lighthouse-report",
+  "homepage": "https://github.com/digitaliteter/lighthouse-report-dev",
   "dependencies": {
     "async": "^2.6.0",
     "colors": "^1.1.2",
