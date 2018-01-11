@@ -16,7 +16,7 @@
     program
         .version(manifest.version)
         .description('Crawls a website or get URLs from a sitemap.xml or a file, gets Lighthouse data for each page, and exports an HTML report.')
-        .usage('[options] <url> <dest_path>')
+        .usage('[options] <url> <dest_path> lloooooooool')
         .option('--urls-from-sitemap [name]', 'Get the list of URLs from sitemap.xml (don\'t crawl)')
         .option('--urls-from-file [name]', 'Get the list of URLs from a file, one url per line (don\'t crawl)')
         .parse(process.argv);
