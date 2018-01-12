@@ -62,7 +62,7 @@
             const filename = _.snakeCase(task.url);
             const outputPath = `${distLighthouse}/${filename}`;
 
-            const cmd = `${task.url} --save-assets --output="json" --perf --output-path="${outputPath}" --chrome-flags="--no-sandbox"`
+            const cmd = `${task.url} --save-assets --output="json" --output="html" --perf --chrome-flags="--headless --disable-gpu --no-sandbox"`
 
             exec(`${lhc} ${cmd}`, { async: true }, (code, stdout, stderr) => {
                 if (code > 0) {
